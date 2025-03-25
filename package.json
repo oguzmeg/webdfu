@@ -6,6 +6,7 @@
   "module": "dist/index.js",
   "main": "dist/index.cjs",
   "exports": {
+    "types": "./dist/index.d.ts",
     "require": "./dist/index.cjs",
     "import": "./dist/index.js"
   },
@@ -41,8 +42,6 @@
   },
   "homepage": "https://github.com/Flipper-Zero/webdfu#readme",
   "devDependencies": {
-    "@types/w3c-web-serial": "^1.0.1",
-    "@types/w3c-web-usb": "^1.0.4",
     "@typescript-eslint/eslint-plugin": "^4.27.0",
     "@typescript-eslint/parser": "^4.27.0",
     "eslint": "^7.28.0",
@@ -56,6 +55,8 @@
     "typescript": "^4.3.2"
   },
   "dependencies": {
+    "@types/w3c-web-serial": "^1.0.8",
+    "@types/w3c-web-usb": "^1.0.10",
     "nanoevents": "^6.0.0"
   }
 }
